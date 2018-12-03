@@ -8,9 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "axios": "^0.18.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.2",
+    "vue-wysiwyg": "^1.7.2"
   },
   "devDependencies": {
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
@@ -20,7 +25,7 @@
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
-    "root": true,
+    "root": false,
     "env": {
       "node": true
     },
